@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/fian/Documents/android/SimplifiedCodingLogin/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="505edbf26a056e9d7bc529aafeef3dbcd7248ecb">
+        <dex dex="/home/fian/Documents/android/SimplifiedCodingLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5e74c6bc7f730b8a0fc76e6dffe948fcb5dd7441/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/81d0845a8178608ae42b89fd7923e87a3a09f83a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="/home/fian/Documents/android/SimplifiedCodingLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_785f6f55acbf6c71d333365e5b4300d1a3ca7f7e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/3b060136b38cab408c98cb72a197438aedd2c8fc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="/home/fian/Documents/android/SimplifiedCodingLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4f4b46a36937f3778710efdf48cf25d33f9b87fd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/708dbd1e1bb15ef70a7ea8debdce860c52c65115/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="/home/fian/Documents/android/SimplifiedCodingLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_70708a24aaa45f2c5a0953135d65c9bd13b484a5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/ba3b4e3d5f3b84898a24ae1450bcbcb3f4ce8a53/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="/home/fian/Documents/android/SimplifiedCodingLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d73dbb31c913b771374f08ba37af2a73097926fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/0550c39079d9f33801990fb014e831d5eb6a10c2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="/home/fian/Documents/android/SimplifiedCodingLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0b08ff334a3f758ece4d85f9398a909245af0e70/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/16e61d163d69e52350eeeae85418ac2f1d3dca16/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/fian/Documents/android/SimplifiedCodingLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1eaa68e43e4a974404eacee4e22f1d34b626e7a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/3f5fd0ab38155b5f0ed4821eb32997963d43476a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="/home/fian/Documents/android/SimplifiedCodingLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_df888c97a055a5e2bf8a3c7bff9ed0dffde0cadb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/d3449be7f3890df516383f28c11c522bd30b86bd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="/home/fian/Documents/android/SimplifiedCodingLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a204c383044b5b8f2c8fbbc7fa7529750d395d97/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/56e594903c64dcd675d229926e7fbfc277a4edfc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="/home/fian/Documents/android/SimplifiedCodingLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e501600fa464fb5f7c5e6f417f08271cf21b07eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/b4db1e8e8d9ab9e11f754686447e6a017de4d4d2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="/home/fian/Documents/android/SimplifiedCodingLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_28bab1a9131d17e05a6d608a904aeccf566206a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/fian/Documents/android/SimplifiedCodingLogin/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/home/fian/Documents/android/SimplifiedCodingLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_cee4f32a1534c5a0bd97678bfc2b1d8666c0671e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/5167db24e219676ee437feae5ced28b3002c0a43/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="/home/fian/Documents/android/SimplifiedCodingLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c328e8b9a27ec6f245427f7279d858c145c7979d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/f757fdb64e2d046497101ee872b8e1d04c76cd1d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="/home/fian/Documents/android/SimplifiedCodingLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_afd89e34181271e72f16a416a108036aac861fcc/classes.dex" />
+    </item>
+
+</items>
