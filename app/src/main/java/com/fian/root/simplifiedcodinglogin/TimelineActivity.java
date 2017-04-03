@@ -8,10 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class TimelineActivity extends AppCompatActivity {
+public class TimelineActivity extends AppCompatActivity{
 
-
-    private Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,8 +23,13 @@ public class TimelineActivity extends AppCompatActivity {
         Toast.makeText(TimelineActivity.this,apiKey,Toast.LENGTH_LONG).show();
 
     }
+
     public void fungsi(View view){
         Intent myintent = new Intent(TimelineActivity.this,MintaTolong.class);
+        startActivity(myintent);
+    }
+    public void momen(View view){
+        Intent myintent = new Intent(TimelineActivity.this,TambahMomen.class);
         startActivity(myintent);
     }
 }

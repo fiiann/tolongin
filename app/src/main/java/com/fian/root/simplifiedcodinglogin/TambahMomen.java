@@ -7,13 +7,15 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
+//import android.text.format.DateUtils;
 import android.util.Base64;
 import android.view.View;
-import android.widget.ArrayAdapter;
+//import android.widget.ArrayAdapter;
 import android.widget.Button;
+//import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.Spinner;
+//import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -29,6 +31,8 @@ import org.json.JSONObject;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+//import java.sql.Date;
+//import java.text.SimpleDateFormat;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -39,14 +43,14 @@ import static com.fian.root.simplifiedcodinglogin.R.id.submit;
  * Created by root on 4/2/17.
  */
 
-public class TambahMomen extends AppCompatActivity implements View.OnClickListener   {
+public class TambahMomen extends AppCompatActivity implements View.OnClickListener{
     public static final String URL = "http://tolongin.96.lt/momen.php";
 
     public static final String KEY_JUDUL= "judul";
     public static final String KEY_DESKRIPSI= "deskripsi";
     public static final String KEY_PENOLONG= "penolong";
     public static final String KEY_DITOLONG= "ditolong";
-    public static final String KEY_TANGGAL="tanggal";
+//    public static final String KEY_TANGGAL="tanggal";
     public static final String KEY_FOTO= "foto";
 
     private static final int PICK_IMAGE = 1;
@@ -58,20 +62,28 @@ public class TambahMomen extends AppCompatActivity implements View.OnClickListen
     private EditText input_pertolongan;
     private EditText input_penolong;
     private EditText input_ditolong;
-    private EditText input_tanggal;
+//    private DatePicker inputTanggal;
+//    private SimpleDateFormat input_tanggal;
     private ImageView input_foto;
     private String foto_encode;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_minta_tolong);
+        setContentView(R.layout.activity_tambah_momen);
 
         input_judul = (EditText) findViewById(R.id.judul);
         input_pertolongan = (EditText) findViewById(R.id.pertolongan); // deskripsi
         input_penolong = (EditText) findViewById(R.id.penolong);
         input_ditolong = (EditText) findViewById(R.id.ditolong);
-        input_tanggal = (EditText) findViewById(R.id.tanggal);
+//        inputTanggal= (DatePicker) findViewById(R.id.tanggal);
+
+//        int day  = inputTanggal.getDayOfMonth();
+//        int month= inputTanggal.getMonth();
+//        int year = inputTanggal.getYear();
+//        input_tanggal= new SimpleDateFormat("dd-MM-yyyy");
+
         input_foto = (ImageView) findViewById(R.id.foto);
 
         buttonSubmit= (Button) findViewById(submit);
@@ -91,12 +103,12 @@ public class TambahMomen extends AppCompatActivity implements View.OnClickListen
 //        System.out.println("encodedBytes " + new String(encodedBytes));
     }
 
-    private void UploadPertolongan(){
+    private void UploadMomen(){
         final String judul = input_judul.getText().toString().trim();
         final String desksripsi = input_pertolongan.getText().toString().trim();
         final String penolong = input_penolong.getText().toString().trim();
         final String ditolong = input_ditolong.getText().toString().trim();
-        final String tanggal = input_tanggal.getText().toString().trim();
+//        String inputTanggal1 = input_tanggal.format(new Date(year, month, day));
         final String foto = foto_encode;
 
         StringRequest stringRequest = new StringRequest(Request.Method.POST, URL,
@@ -148,7 +160,7 @@ public class TambahMomen extends AppCompatActivity implements View.OnClickListen
                 params.put(KEY_DESKRIPSI,desksripsi);
                 params.put(KEY_PENOLONG,penolong);
                 params.put(KEY_DITOLONG,ditolong);
-                params.put(KEY_TANGGAL,tanggal);
+//                params.put(KEY_TANGGAL,tanggal);
                 params.put(KEY_FOTO, foto);
                 return params;
             }
@@ -175,7 +187,7 @@ public class TambahMomen extends AppCompatActivity implements View.OnClickListen
     @Override
     public void onClick(View v) {
         if (v == buttonSubmit) {
-            UploadPertolongan();
+            UploadMomen();
         }
         if (v == buttonChoose) {
             getFoto();

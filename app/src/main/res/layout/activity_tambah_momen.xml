@@ -74,10 +74,10 @@
                 android:hint="Momen apa ini?"
                 android:inputType="textMultiLine" />
 
-            <DatePicker
-                android:id="@+id/tanggal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+            <!--<DatePicker-->
+                <!--android:id="@+id/tanggal"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content" />-->
 
             <Button
                 android:id="@+id/submit"
